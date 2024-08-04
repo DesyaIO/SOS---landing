@@ -1,0 +1,28 @@
+.container {
+    margin-inline: var(--content-container);
+}
+.simple-button {
+    @include simple-button;
+    
+    font-family: var(--font-opensans);
+    font-size: 16px;
+    color: var(--black-color);
+    font-weight: 700;
+    padding-bottom: 20px;
+    padding-top: 18px;
+    padding-inline: 15px;
+}
+
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}

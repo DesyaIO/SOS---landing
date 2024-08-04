@@ -1,0 +1,26 @@
+@mixin simple-button($width: 260px) {
+    width: $width;
+    height: 60px;
+
+    background: linear-gradient(194.68deg, #FFB548 11.27%, #F3AF34 90.4%);
+    transition: var(--transition-delay);
+    border-style: solid;
+    border-radius: 5px;
+    border-width:0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@mixin category () {
+    width: 135px;
+    height: 43px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: var(--main-font-color);
+    border-radius: 20px;
+    background-color: #D4E8D9;
+}

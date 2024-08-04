@@ -1,0 +1,38 @@
+@font-face {
+    font-family: "BebasNeue";
+    src: url("/public/fonts/BebasNeue-Regular.woff2") format("woff2");
+    font-style: normal;
+    font-display: swap;
+    font-weight: 400;
+}
+@font-face {
+    font-family: "OpenSans";
+    src: url("/public/fonts/OpenSans-Bold.woff2") format("woff2");
+    font-style: normal;
+    font-display: swap;
+    font-weight: 700;
+}
+@font-face {
+    font-family: "OpenSans";
+    src: url("/public/fonts/OpenSans-Regular.woff2") format("woff2");
+    font-style: normal;
+    font-display: swap;
+    font-weight: 400;
+}
+
+:root {
+
+    --transition: 0.2s;
+
+    --black-color: #1A1917;
+
+    --white-color: #FFFFFF;
+
+    --main-color: #FFB548;
+
+    --transition-delay: 0.3s;
+    --content-container: 220px;
+    --top-container: 200px;
+    --font-bebas: "BebasNeue";
+    --font-opensans: "OpenSans";
+}
